@@ -6,7 +6,7 @@
                 div.menuBtn(@click="jumpTo('/goods')")
                    span.iconfont &#xe662;
                    i 收银
-                div.menuBtn
+                div.menuBtn(@click="jumpTo('/test')")
                    span.iconfont &#xe53d;
                    i 会员  
                 div.menuBtn(@click="jumpTo('/stockManagement')")
